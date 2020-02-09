@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -170,7 +169,6 @@ public class Main {
 
     }
 
-    //Найти сумму элементов матрицы, расположенных между первым и вторым положительными элементами каждой строки
     private static void optionalTask2(){
         int n = 0;
 
@@ -184,8 +182,6 @@ public class Main {
         System.out.println("\n**************************************");
 
         printArray(array);
-
-
     }
 
     private static void calculateSum(int[] array){
